@@ -97,7 +97,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/** globales **/
+/**Inicio stilos Globales------------------------------------------**/
 html {
     box-sizing: border-box;
 }
@@ -122,7 +122,6 @@ h2::after {
     width: 100px;
     display: block;
 }
-
 .seccion {
     padding: 30px 0;
 }
@@ -131,7 +130,7 @@ h2::after {
     text-align: center;
 }
 
-/**Header**/
+/**Inicio stilos para Header------------------------------------------**/
 div.hero {
     background-image: url(../img/encabezado.jpg);
     height: 100vh;
@@ -205,8 +204,10 @@ h1.nombre-sitio {
         line-height: 1;
     }
 }
+/**Fin stilos para Header------------------------------------------**/
 
-/** Contenedor **/
+
+/**Inicio stilos para Contenedor------------------------------------------**/
 
 .contenedor {
     width: 98%;
@@ -228,8 +229,9 @@ h1.nombre-sitio {
         max-width: 1100px;
     }
 }
+/**Fin stilos para Contenedor------------------------------------------**/
 
-/** Barra navegacion **/
+/**Inicio stilos para Barra navegacion------------------------------------------**/
 div.barra {
     background-color: #353535;
     padding: 20px;
@@ -315,9 +317,11 @@ div.menu-movil span {
         margin-bottom: 6px;
         background-color: #ffffff;
         display: block;
-}   
+}
 
-/** Descripcion **/
+
+/**Fin stilos para Barra navegacion------------------------------------------**/
+
 
 
 
