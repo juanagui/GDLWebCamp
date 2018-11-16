@@ -147,6 +147,13 @@ h3 {
     background-color: white;
     color: #fe4918;
 }
+.button.transparente {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+}
+.button.transparente:hover {
+    border: 2px solid #fe4918;
+}
 ul {
     list-style: none;
     margin: 0;
@@ -696,15 +703,73 @@ div.newsletter .contenido {
 }
 div.newsletter .contenido p {
     font-size: 1.2em;
-    text-transform: lowercase;
+    
 }
-div.newsletter .contenido p h3 {
+div.newsletter .contenido h3 {
     color: #ffffff;
     text-transform: uppercase;
     font-size: 7vw;
     font-family: 'PT Sans', sans-serif;
 }
 
+/** Seccion cuenta regresiva **/
+div.cuenta-regresiva ul li {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+@media only screen and (min-width:768px) {
+    div.cuenta-regresiva ul li {
+        width: 25%;
+        float: left;
+    }
+}
+
+/** Seccion footer del site **/
+
+footer {
+    background-color: #353535;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+footer .contenedor > div {
+    color: #ffffff;
+    padding: 0px 20px;
+    font-size: 12px;
+}
+
+@media only screen and (min-width:768px) {
+    footer .contenedor > div {
+        width: 33.3%;
+        float: left;
+    }
+}
+
+footer h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+footer h3 span {
+    color: #fe4918;
+}
+
+footer .ultimos-tweets {
+    margin-bottom: 10px;
+}
+footer nav.redes-sociales {
+    text-align: left;
+}
+p.copyright {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    padding: 10px 0;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
 
 
 /* ==========================================================================
