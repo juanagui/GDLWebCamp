@@ -390,7 +390,7 @@ div.contenido-programa {
 div.programa-evento {
     background-color: rgba(255, 255, 255, .8);
     padding: 15px;
-    margin-top: 80px;   
+    margin-top: 80px;
 }
 @media only screen and (min-width:768px) {
     div.programa-evento {
@@ -475,11 +475,11 @@ div.invitado {
 div.invitado img {
     max-width: 100%;
     filter: gray;
-    -webkit-filter: grayscale(1); 
+    -webkit-filter: grayscale(1);
     -webkit-transition: all .5s ease-in-out;
 }
 div.invitado img:hover {
-    -webkit-filter: grayscale(0); 
+    -webkit-filter: grayscale(0);
     -webkit-transform: scale(1.1);
 }
 div.invitado p {
@@ -605,7 +605,7 @@ div.tabla-precio h3 {
 }
 div.tabla-precio p.numero {
     color: #000000;
-    margin: 20px 0; 
+    margin: 20px 0;
 }
 
 /** Mapa google **/
@@ -659,6 +659,7 @@ blockquote p::before {
 
 footer.info-testimonial {
     padding: 0;
+    background-color: #ffffff;
 }
 footer.info-testimonial img {
     float: left;
@@ -692,7 +693,7 @@ div.newsletter {
 
 div.newsletter::before {
     background-image: url(../img/bg-newsletter.jpg);
-    content: '';    
+    content: '';
 }
 
 div.newsletter .contenido {
@@ -703,7 +704,7 @@ div.newsletter .contenido {
 }
 div.newsletter .contenido p {
     font-size: 1.2em;
-    
+
 }
 div.newsletter .contenido h3 {
     color: #ffffff;
